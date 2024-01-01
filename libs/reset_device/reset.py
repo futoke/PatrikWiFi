@@ -14,7 +14,7 @@ reboot_required = False
 
 
 reboot_required = reset_lib.wpa_check_activate(
-    config_hash["wpa_enabled"], config_hash["wpa_key"]
+    config_hash["wpa_enabled"], config_hash["wpa_key"]  # noqa: COM812
 )
 
 reboot_required = reset_lib.update_ssid(
