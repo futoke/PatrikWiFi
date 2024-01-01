@@ -25,4 +25,4 @@ if reboot_required:
     os.system("reboot")  # noqa: S605, S607
 
 
-reset_lib.reset_to_host_mode()
+# reset_lib.reset_to_host_mode()
